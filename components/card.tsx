@@ -10,7 +10,7 @@ export interface ActorsProps {
   family: string;
 }
 
-function Card({ id, firstName, lastName, fullName, imageUrl, title, family }: ActorsProps) {
+function Card({  firstName, lastName, fullName, imageUrl, title, family }: ActorsProps) {
   return (
     <div className="max-w-xs bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow duration-300">
       <img
